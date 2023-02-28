@@ -1,0 +1,19 @@
+
+#include <stdio.h>
+/* Program koj vnesuva petcifren broj, gi rasporeduva site cifri
+na brojot vo posebni promenlivi i gi pecati sekoja od cifrite so rastojanie
+edna od druga od tri prazni mesta*/
+int main()
+{
+    printf("Vnesi petcifren broj.\n");
+    int broj;
+    int cifra1, cifra2,cifra3,cifra4,cifra5;
+    scanf("%d", &broj);
+    cifra1 = broj%100000/10000;
+    cifra2 = broj%10000/1000;
+    cifra3 = broj%1000/100;
+    cifra4 = broj%100/10;
+    cifra5 = broj%10;
+    printf("%d   %d   %d   %d   %d ",cifra1,cifra2,cifra3,cifra4,cifra5);
+    return 0;
+}

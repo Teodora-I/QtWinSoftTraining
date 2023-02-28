@@ -1,0 +1,38 @@
+a)
+#include <stdio.h>
+/* Program koj pecati od 1 do 4 bez specifikatori za konverzija*/
+int main()
+{
+    printf("1 2 3 4");
+    
+    return 0;
+}
+
+b)
+#include <stdio.h>
+/* Program koj pecati od 1 do 4 so specifikatori za konverzija vo edna printf naredba*/
+int main()
+{
+    int broj1 = 1 ;
+    int broj2 =2 ;
+    int broj3 = 3 ;
+    int broj4 = 4 ;
+    printf("Broevite se: %d %d %d %d ",broj1,broj2,broj3,broj4);
+    return 0;
+}
+
+v)
+#include <stdio.h>
+/* Program koj pecati od 1 do 4 so specifikatori za konverzija so cetiri printf naredbi*/
+int main()
+{
+    int broj1 = 1 ;
+    int broj2 =2 ;
+    int broj3 = 3 ;
+    int broj4 = 4 ;
+    printf("Broevite se: %d ", broj1);
+    printf("%d ", broj2);
+    printf("%d ", broj3);
+    printf("%d ", broj4);
+    return 0;
+}

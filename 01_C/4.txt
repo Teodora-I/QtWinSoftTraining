@@ -1,0 +1,21 @@
+
+#include <stdio.h>
+/* Program koj vcituva tri celi broja i im pecati sredna vrednost, suma i proizvod*/
+int main()
+{
+    int broj1, broj2, broj3, srednaVrednost, suma, proizvod;
+    
+    printf("Vnesi tri celobrojna broja so space pomegju: ");
+    scanf("%d %d %d", &broj1, &broj2, &broj3);
+    
+    srednaVrednost = (broj1+broj2+broj3)/3;
+    printf("Celobrojna sredna vrednost e: %d\n", srednaVrednost);
+    
+    suma = broj1+broj2+broj3;
+    printf("Suma na broevite e: %d\n", suma);
+    
+    proizvod = broj1*broj2*broj3;
+    printf("Proizvod na broevite e: %d\n", proizvod);
+    
+    return 0;
+}

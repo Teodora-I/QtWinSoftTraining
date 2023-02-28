@@ -1,0 +1,62 @@
+a)
+
+#include <stdio.h>
+/* Program koj pecati kvadrat*/
+int main()
+{
+    printf("*****\n");
+    printf("*   *\n");
+    printf("*   *\n");
+    printf("*   *\n");
+    printf("*   *\n");
+    printf("*   *\n");
+    printf("*****\n");
+    return 0;
+}
+
+b)
+#include <stdio.h>
+/* Program koj pecati krug*/
+int main()
+{
+    printf("   *** \n");
+    printf(" *     *\n");
+    printf("*       *\n");
+    printf("*       *\n");
+    printf("*       *\n");
+    printf(" *     *\n");
+    printf("   *** \n");
+    return 0;
+}
+
+v)
+
+#include <stdio.h>
+/* Program koj pecati strelka*/
+int main()
+{
+    printf("   * \n");
+    printf("  ***\n");
+    printf("*******\n");
+    printf("   *\n");
+    printf("   *\n");
+    printf("   *\n");
+    printf("   *\n");
+    return 0;
+}
+
+d)
+
+#include <stdio.h>
+/* Program koj pecati romb*/
+int main()
+{
+    printf("    * \n");
+    printf("   * *\n");
+    printf("  *   *\n");
+    printf(" *     *\n");
+    printf("  *   *\n");
+    printf("   * *\n");
+    printf("    *\n");
+    return 0;
+}
